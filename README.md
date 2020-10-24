@@ -1,11 +1,11 @@
-# Star Wars characters GraphQL with Node and TypeScript Server
+# Star Wars characters GraphQL Server with Node and TypeScript
 
 ## Run the following to start the server
 ```
 npm start
 ```
 
-## Access gql API at:
+## Access the API at:
 ```
-http://localhost:9000
+http://localhost:9000/api
 ```
