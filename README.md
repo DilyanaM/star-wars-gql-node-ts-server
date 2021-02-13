@@ -18,7 +18,7 @@ http://localhost:9000/api
 ### Fetch characters
 ```
 query {
-  characters: characters {
+  characters {
     id,
     name,
     image,
@@ -31,7 +31,7 @@ query {
 ### Delete character
 ```
 mutation {
-  deleteCharacter: deleteCharacter(id: characterToDeleteIDHere) {
+  deleteCharacter(id: characterToDeleteIDHere) {
     id: id
   }
 }
