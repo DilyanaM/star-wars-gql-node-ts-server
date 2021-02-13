@@ -14,3 +14,25 @@ npm start
 ```
 http://localhost:9000/api
 ```
+
+### Fetch characters
+```
+query {
+  characters: characters {
+    id,
+    name,
+    image,
+    wiki,
+    species
+  }
+}
+```
+
+### Delete character
+```
+mutation {
+  deleteCharacter: deleteCharacter(id: characterToDeleteIDHere) {
+    id: id
+  }
+}
+```
